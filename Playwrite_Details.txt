@@ -1,0 +1,37 @@
+https://playwright.dev/docs/locators
+
+# Playwright Recorder
+PS D:\Playwright> npx playwright codegen
+
+# Chrome Extenstion
+https://chromewebstore.google.com/detail/testcase-studio-selenium/loopjjegnlccnhgfehekecpanpmielcj
+
+# Run from your project's root directory
+npm init playwright@latest
+# Or create a new project
+npm init playwright@latest new-project
+
+PS D:\Playwright> npm playwright -v
+10.9.2
+
+RUN the test
+PS D:\Playwright> npx playwright test 
+
+RUN the specific test
+PS D:\Playwright> npx playwright test HomePageTest.spec.js
+
+RUN only in specific browser like chromium
+PS D:\Playwright> npx playwright test HomePageTest.spec.js --project=chromium
+
+RUN with headed mode which will launch the visible browser
+PS D:\Playwright> npx playwright test HomePageTest.spec.js --project=chromium --headed
+
+RUN in DEBUG Mode
+PS D:\Playwright> npx playwright test HomePageTest.spec.js --project=chromium --headed --debug
+
+Show Report
+PS D:\Playwright> npx playwright show-report
+
+https://www.demoblaze.com/
+Username: nileshit2014
+Password: Test@!!!
