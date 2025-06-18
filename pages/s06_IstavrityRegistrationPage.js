@@ -1,3 +1,4 @@
+//Test
 const { expect } = require('@playwright/test');
 
 class IstavrityRegistrationPage {
